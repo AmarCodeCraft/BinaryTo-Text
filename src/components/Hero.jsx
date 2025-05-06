@@ -27,7 +27,7 @@ function Hero() {
     <div className='main bg-gray-900 min-h-screen min-w-full'>
       <div className="flex flex-col justify-center items-center">
         <h1 className='text-6xl font-bold text-white'>Binary To Text</h1>
-        <div className="container py-15 flex flex-col justify-center items-center gap-3">
+        <div className="container py-5 flex flex-col justify-center items-center gap-3">
           <p className='text-2xl text-white text-center'>Enter a binary number and get its equivalent text</p>
           <textarea 
             onChange={handleData} 
@@ -36,7 +36,7 @@ function Hero() {
           ></textarea>
           <button 
             onClick={handleClick} 
-            className='w-1/4 h-10 rounded-lg cursor-pointer bg-gray-600 text-white font-semibold'
+            className='w-1/4 h-10 rounded-lg cursor-pointer bg-gray-600 hover:bg-gray-700 text-white font-semibold'
           >
             Convert
           </button>
